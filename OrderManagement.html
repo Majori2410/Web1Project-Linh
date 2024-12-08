@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="OrderManagement.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <header>
+        <div id="list"><i class="fa-solid fa-list-ul"></i></div>
+        <img src="avt.jpg" alt="Avatar">
+        <i class="fa-solid fa-caret-down"></i>
+    </header>
+
+    
+        <nav>
+        <p class="admin"><a href="admin.html">Thông tin quản trị viên</a></p>
+        <p class="user"><a href="user.html">Quản lý người dùng</a></p>
+        <p class="product"><a href="product.html">Quản lý sản phẩm</a></p>
+        <p class="don"><a href="OrderManagement.html">Quản lý đơn hàng</a></p>
+        <p class="thongke"><a href="thongke.html">Thống kê kinh doanh</a></p>
+        </nav>
+
+    <main>
+
+        <div class="search">
+            <div class="khungchua">
+                <input type="text" placeholder="Tìm Kiếm đơn hàng">
+                <a href="#" class="fa fa-search"></a>
+            </div>
+        </div>
+
+        <div class="orderTitle"> 
+            <h>Danh sách đơn hàng</h>
+        </div>
+
+        <div class="order-card">
+            <!--Đơn hàng 1-->
+            <div class = "eachOrder">
+                <h1>Đơn hàng #1</h1>
+                <p>Ngày đặt: 22/11/2024
+                <p>Khách hàng: Đoàn Dương Thùy Linh</p>   
+                <p>Tổng tiền: 130.000đ</p>   
+                <p>Trạng thái vận chuyển: đã giao hàng</p>
+
+                <div class = "board">
+                    <table> <!-- border="1" để tạo đường viền cho bảng -->
+                        <thead> <!--Chứa phần tiêu đề của bảng-->
+                            <tr> <!--Định nghĩa một hàng trong bảng-->
+                                <th>Sản phẩm</th> <!--Định nghĩa ô tiêu đề trong bảng (thường được làm đậm và căn giữa).-->
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thức ăn đông khô cho thú cưng PetQ - Gan gà 200g</td> <!--Định nghĩa ô dữ liệu trong bảng-->
+                                <td>1</td>
+                                <td>130.000đ</td>
+                                <td>130.000đ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!--Đơn hàng 2-->
+            <div class = "eachOrder">
+                <h1>Đơn hàng #2</h1>
+                <p>Ngày đặt: 2/12/2024
+                <p>Khách hàng: Hồ Phạm Yến Như</p>   
+                <p>Tổng tiền: 520.000đ</p>   
+                <p>Trạng thái vận chuyển: đang vận chuyển</p>
+                
+                <div class = "board">
+                    <table> <!-- border="1" để tạo đường viền cho bảng -->
+                        <thead> <!--Chứa phần tiêu đề của bảng-->
+                            <tr> <!--Định nghĩa một hàng trong bảng-->
+                                <th>Sản phẩm</th> <!--Định nghĩa ô tiêu đề trong bảng (thường được làm đậm và căn giữa).-->
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thức ăn đông khô cho thú cưng PetQ - Lòng đỏ trứng gà 200g</td> <!--Định nghĩa ô dữ liệu trong bảng-->
+                                <td>4</td>
+                                <td>130.000đ</td>
+                                <td>520.000đ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!--Đơn hàng 3-->
+            <div class = "eachOrder">
+                <h1>Đơn hàng #3</h1>
+                <p>Ngày đặt: 10/12/2024
+                <p>Khách hàng: Nguyễn Phúc Vinh</p>   
+                <p>Tổng tiền: 5.000.000đ</p>   
+                <p>Trạng thái vận chuyển: đang vận chuyển</p>
+                
+                <div class = "board">
+                    <table> <!-- border="1" để tạo đường viền cho bảng -->
+                        <thead> <!--Chứa phần tiêu đề của bảng-->
+                            <tr> <!--Định nghĩa một hàng trong bảng-->
+                                <th>Sản phẩm</th> <!--Định nghĩa ô tiêu đề trong bảng (thường được làm đậm và căn giữa).-->
+                                <th>Số lượng</th>
+                                <th>Đơn giá</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lồng vận chuyển hàng không chó mèo size đại 6 1000x67x75cm</td> <!--Định nghĩa ô dữ liệu trong bảng-->
+                                <td>1</td>
+                                <td>3.000.000đ</td>
+                                <td>3.000.000đ</td>
+                            </tr>
+                            <tr>
+                                <td>"Vali kéo trong cho thú cưng (nhiều màu) 40x40x25</td> <!--Định nghĩa ô dữ liệu trong bảng-->
+                                <td>1</td>
+                                <td>2.000.000đ</td>
+                                <td>2.000.000đ</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>

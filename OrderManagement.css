@@ -1,0 +1,154 @@
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #4A4947;
+    width: 100%;
+    height: 13vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+header img {
+    border: none;
+    border-radius: 100%;
+    width: 53px;
+    height: 53px;
+}
+header i {
+    color: #d9d9d9;
+    padding: 8px;
+}
+#list {
+    width: 1420px;
+    font-size: 25px;
+}
+nav {
+    display: block;
+    background: #4A4947;
+    width: 200px;
+    height: 100vh;
+    padding: 100px 20px;
+}
+nav a {
+    color: #d9d9d9;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+.don {
+    background: #d9d9d9;
+    padding: 10px;
+    
+}
+.don a {
+    color: #4A4947;
+}
+.admin, .product, .don, .thongke {
+    padding: 10px;
+}
+main {
+    display: flex;
+    margin-top: -803px;
+    margin-left: 290px;
+    margin-right: 52px;
+    font-size: 20px;
+    color: #4A4947;
+    flex-direction: column;
+}
+
+.search {
+    display: flex;
+    width: 550px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15px;
+
+}
+
+.khungchua {
+    border: 1px solid #D37676;
+    border-radius: 12px;
+    height: 36px;
+    width: 450px;
+    padding-left: 13px;
+    background-color: white;
+    padding: 1px 7px;
+}
+
+.search input {
+    width: 400px;
+    height: 30px;
+    outline: none;
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.search button {
+    height: 30px;
+    width: 20px;
+    border: 1px solid white;
+}
+
+.search a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #D37676;
+    margin-left: 11px;
+
+}
+
+.orderTitle {
+    display: flex;
+    margin-top: 10px;
+    font-weight: bold;
+    align-items: stretch;
+}
+
+.order-card {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.order-card .eachOrder {
+    background-color: #e8e8e8;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.order-card .eachOrder h1 {
+    font-size: 18px;
+}
+
+.order-card .eachOrder p {
+    font-size: 18px;
+    flex-direction: column;
+}
+
+.order-card .eachOrder .board table {
+    width: 1080px;
+    border-collapse: collapse; /* Xóa khoảng cách giữa các ô */
+    border: 1px solid black; /* Đường viền quanh bảng */
+    background-color: #f2f2f2;
+  }
+
+  .order-card .eachOrder .board th {
+    text-align: left;
+    width: 270px;
+    padding: 10px;
+  }
+
+  .order-card .eachOrder .board th, .order-card .eachOrder .board td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+
+
+    

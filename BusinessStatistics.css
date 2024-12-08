@@ -1,0 +1,128 @@
+header {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    background: #4A4947;
+    width: 100%;
+    height: 13vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+}
+header img {
+    border: none;
+    border-radius: 100%;
+    width: 53px;
+    height: 53px;
+}
+header i {
+    color: #d9d9d9;
+    padding: 8px;
+}
+#list {
+    width: 1420px;
+    font-size: 25px;
+}
+nav {
+    display: block;
+    background: #4A4947;
+    width: 200px;
+    height: 100vh;
+    padding: 100px 20px;
+}
+nav a {
+    color: #d9d9d9;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+}
+.thongke {
+    background: #d9d9d9;
+    padding: 10px;
+    
+}
+.thongke a {
+    color: #4A4947;
+}
+.admin, .product, .don, .thongke {
+    padding: 10px;
+}
+main {
+    display: flex;
+    margin-top: -803px;
+    margin-left: 290px;
+    margin-right: 52px;
+    font-size: 20px;
+    color: #4A4947; 
+    flex-direction: column;
+}
+
+.listTime {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.listTime a {
+    margin-top: 10px;
+    display: flex;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    color: inherit;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 300px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.listTime a:hover {
+    background-color: #B0C5A4;
+    color: white;
+}
+
+.amountOfEachProduct .board {
+    display: flex;
+    justify-content: center;
+}
+
+.amountOfEachProduct p {
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.amountOfEachProduct .board table {
+    margin-top: 5px;
+    width: 1050px;
+    border-collapse: collapse; /* Xóa khoảng cách giữa các ô */
+    border: 1px solid black; /* Đường viền quanh bảng */
+    background-color: #f2f2f2;
+  }
+
+  .amountOfEachProduct .board th {
+    text-align: left;
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+  }
+    .amountOfEachProduct .board .th1 {
+        text-align: left;
+        width: 80px;
+        padding: 10px;
+    }
+
+    .amountOfEachProduct .board th .th2 {
+        text-align: left;
+        width: 270px;
+        padding: 10px;
+    }
+
+    .amountOfEachProduct .board th, .amountOfEachProduct .board td {
+        padding: 10px;
+    }
+
+
